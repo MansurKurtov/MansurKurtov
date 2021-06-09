@@ -1,6 +1,0 @@
-public class Solution {
-    public int NumJewelsInStones(string jewels, string stones) {
-        var data = jewels.ToHashSet();
-            return stones.Count(data.Contains);
-    }
-}
